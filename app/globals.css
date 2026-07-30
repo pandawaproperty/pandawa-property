@@ -1,6 +1,32 @@
 @import "tailwindcss";
 
 :root {
+  /* Brand */
+  --color-primary: #facc15;
+  --color-primary-hover: #eab308;
+
+  /* Background */
+  --color-background: #fafafa;
+  --color-surface: #ffffff;
+
+  /* Text */
+  --color-heading: #18181b;
+  --color-body: #52525b;
+  --color-muted: #71717a;
+
+  /* Border */
+  --color-border: #e4e4e7;
+
+  /* Radius */
+  --radius-card: 24px;
+  --radius-button: 14px;
+
+  /* Shadow */
+  --shadow-card:
+    0 8px 30px rgba(0,0,0,.06);
+}
+
+:root {
   --background: #ffffff;
   --foreground: #171717;
 }

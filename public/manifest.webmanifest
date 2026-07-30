@@ -1,0 +1,23 @@
+{
+  "name": "Pandawa Property",
+  "short_name": "Pandawa",
+  "description": "Marketing Properti Spesialis Warehouse, Factory & Industrial Land.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#facc15",
+  "lang": "id",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
