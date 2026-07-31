@@ -166,9 +166,9 @@ longitude: 107.301278,
   image: "/images/subang.png",
   images: [
   "/images/properties/subang-smartpolitan-1.jpg",
-  "/images/properties/Artha-2.jpg",
-  "/images/properties/Artha-3.jpg",
-  "/images/properties/Artha-4.jpg",
+  "/images/properties/subang-smartpolitan-2.jpg",
+  "/images/properties/subang-smartpolitan-3.jpg",
+  "/images/properties/subang-smartpolitan-4.jpg",
 ],
 
   description:
