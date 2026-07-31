@@ -3,6 +3,8 @@ export interface IndustrialArea {
 
   developerSlug: string;
 
+  developer: string;
+
   slug: string;
 
   name: string;
@@ -18,20 +20,20 @@ export interface IndustrialArea {
   description: string;
 
   // SEO
-  seoTitle: string;
+seoTitle?: string;
 
-  seoDescription: string;
+seoDescription?: string;
 
-  overview: string;
+overview?: string;
 
-  advantages: string[];
+advantages?: string[];
 
-  industries: string[];
+industries?: string[];
 
-  accessibility: string[];
+accessibility?: string[];
 
-  faq: {
-    question: string;
-    answer: string;
-  }[];
+faq?: {
+  question: string;
+  answer: string;
+}[];
 }

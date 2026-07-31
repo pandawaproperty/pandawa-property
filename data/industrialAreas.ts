@@ -1,3 +1,5 @@
+
+import { IndustrialArea } from "@/types/industrialArea";
 export const industrialAreas = [
   {
     id: 1,
@@ -47,9 +49,9 @@ export const industrialAreas = [
   {
     id: 4,
 
-   developerSlug:"giic",
+   developerSlug:"deltamas",
     name: "GIIC",
-    slug: "giic",
+    slug: "deltamas",
     location: "Deltamas",
     developer: "Sinar Mas Land",
     totalArea: "2,200 Ha",
@@ -77,9 +79,9 @@ export const industrialAreas = [
   {
     id: 6,
 
-   developerSlug:"artha-industrial-hill",
+   developerSlug:"artha-graha",
     name: "Artha Industrial Hill",
-    slug: "artha-industrial-hill",
+    slug: "artha-graha",
     location: "Karawang",
     developer: "Artha Graha Group",
     totalArea: "390 Ha",
