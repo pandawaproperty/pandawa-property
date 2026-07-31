@@ -95,7 +95,7 @@ longitude: 107.143650,
   
 latitude: -6.377214,
 longitude: 107.301278,
-  image: "/images/artha.JPG",
+  image: "/images/artha.jpg",
   images: [
   "/images/properties/artha-1.jpg",
   "/images/properties/artha-2.jpg",
@@ -133,9 +133,9 @@ longitude: 107.301278,
   image: "/images/suryacipta.png",
   images: [
   "/images/properties/suryacipta-1.jpg",
-  "/images/properties/Artha-2.jpg",
-  "/images/properties/Artha-3.jpg",
-  "/images/properties/Artha-4.jpg",
+  "/images/properties/suryacipta-2.jpg",
+  "/images/properties/suryacipta-3.jpg",
+  "/images/properties/suryacipta-4.jpg",
 ],
 
   description:
