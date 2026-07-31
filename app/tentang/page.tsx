@@ -126,7 +126,7 @@ export default function TentangPage() {
           </p>
 
           <a
-            href="https://wa.me/6281290004662"
+            href="https://wa.me/6281255558283"
             target="_blank"
             className="inline-block mt-10 bg-yellow-400 text-black px-8 py-4 rounded-xl font-bold hover:bg-yellow-300 transition"
           >

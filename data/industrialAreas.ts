@@ -90,4 +90,19 @@ export const industrialAreas = [
       "Kawasan industri baru dengan infrastruktur modern dan lokasi strategis.",
     image: "/images/areas/artha-industrial-hill.jpg",
   },
+
+  {
+    id: 7,
+
+   developerSlug:"subang-smartpolitan",
+    name: "Subang Smarpolitan",
+    slug: "subang-smartpolitan",
+    location: "Subang",
+    developer: "Subang Smarpolitan",
+    totalArea: "2600 Ha",
+    tollAccess: "Tol Subang",
+    description:
+      "Kawasan industri baru dengan infrastruktur modern dan lokasi strategis.",
+    image: "/images/areas/subang-smartpolitan.jpg",
+  },
 ];
