@@ -22,7 +22,7 @@ export default function Hero() {
 
       {/* Content */}
 
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-5 md:px-6">
+      <div className="mx-auto w-full max-w-7xl px-10 lg:px-12">
 
         <div className="max-w-2xl">
 

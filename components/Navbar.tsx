@@ -32,7 +32,7 @@ export default function Navbar() {
     <>
       <header className="fixed inset-x-0 top-0 z-50 border-b bg-white/95 backdrop-blur">
 
-        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:h-20 md:px-6">
+        <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-10 lg:px-12">
 
           {/* Logo */}
 
@@ -40,10 +40,10 @@ export default function Navbar() {
             <Image
   src="/images/logo/pandawa.png"
   alt="Pandawa Property"
-  width={320}
-  height={90}
+  width={420}
+  height={120}
   priority
-  className="h-14 w-auto md:h-20"
+  className="h-16 lg:h-20 w-auto"
 />
           </Link>
 
