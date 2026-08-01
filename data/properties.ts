@@ -183,7 +183,7 @@ longitude: 107.301278,
 
 {
   id: 6,
-  slug: "warehouse-delta-silicon",
+  slug: "Factory-delta-silicon",
   title: "Factory Delta Silicon",
 
   areaSlug: "delta-silicon",
