@@ -17,7 +17,7 @@ export const properties: Property[] = [
   landArea: "1043 m²",
   buildingArea: "950 m²",
 
-  price: "Rp 20.000.000.000",
+  price: "Rp 9.000.000.000",
 latitude: -6.321983,
 longitude: 107.143650,
   
@@ -62,10 +62,10 @@ longitude: 107.143650,
   image: "/images/jababeka.png",
 
   images: [
-  "/images/properties/jababeka-1.jpg",
-  "/images/properties/jababeka-2.jpg",
-  "/images/properties/jababeka-3.jpg",
-  "/images/properties/jababeka-4.jpg",
+  "/images/properties/jababeka/jababeka-1.jpg",
+  "/images/properties/jababeka/jababeka-2.jpg",
+  "/images/properties/jababeka/jababeka-3.jpg",
+  "/images/properties/jababeka/jababeka-4.jpg",
 ],
 
   description:
@@ -97,10 +97,10 @@ latitude: -6.377214,
 longitude: 107.301278,
   image: "/images/artha.jpg",
   images: [
-  "/images/properties/artha-1.jpg",
-  "/images/properties/artha-2.jpg",
-  "/images/properties/artha-3.jpg",
-  "/images/properties/artha-4.jpg",
+  "/images/properties/artha/artha-1.jpg",
+  "/images/properties/artha/artha-2.jpg",
+  "/images/properties/artha/artha-3.jpg",
+  "/images/properties/artha/artha-4.jpg",
 ],
 
   description:
@@ -132,10 +132,10 @@ latitude: -6.377214,
 longitude: 107.301278,
   image: "/images/suryacipta.png",
   images: [
-  "/images/properties/suryacipta-1.jpg",
-  "/images/properties/suryacipta-2.jpg",
-  "/images/properties/suryacipta-3.jpg",
-  "/images/properties/suryacipta-4.jpg",
+  "/images/properties/suryacipta/suryacipta-1.jpg",
+  "/images/properties/suryacipta/suryacipta-2.jpg",
+  "/images/properties/suryacipta/suryacipta-3.jpg",
+  "/images/properties/suryacipta/suryacipta-4.jpg",
 ],
 
   description:
