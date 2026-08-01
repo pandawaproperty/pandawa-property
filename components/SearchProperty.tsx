@@ -23,22 +23,30 @@ export default function SearchProperty() {
   };
 
   return (
-    <section className="bg-white shadow-xl rounded-3xl p-8 -mt-16 relative z-20 max-w-7xl mx-auto">
+    <section className="relative z-20 mx-auto -mt-20 max-w-7xl rounded-3xl border border-zinc-200 bg-white p-5 shadow-2xl md:-mt-16 md:p-8">
+      <div className="mb-6">
+  <h2 className="text-2xl font-bold text-zinc-900">
+    Cari Properti Industri
+  </h2>
 
-      <div className="grid lg:grid-cols-5 gap-5">
-
+  <p className="mt-1 text-zinc-500">
+    Warehouse • Factory • Industrial Land
+  </p>
+</div>
+      
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-5">
         <input
           type="text"
           placeholder="Cari Properti..."
           value={keyword}
           onChange={(e) => setKeyword(e.target.value)}
-          className="border rounded-xl px-4 py-3"
+          className="h-14 rounded-xl border border-zinc-300 bg-zinc-50 px-4 outline-none transition focus:border-yellow-400 focus:bg-white"
         />
 
         <select
           value={category}
           onChange={(e) => setCategory(e.target.value)}
-          className="border rounded-xl px-4 py-3"
+         className="h-14 rounded-xl border border-zinc-300 bg-zinc-50 px-4 outline-none transition focus:border-yellow-400 focus:bg-white"
         >
           <option value="">Semua Kategori</option>
           <option value="Warehouse">Warehouse</option>
@@ -49,7 +57,7 @@ export default function SearchProperty() {
         <select
           value={status}
           onChange={(e) => setStatus(e.target.value)}
-          className="border rounded-xl px-4 py-3"
+         className="h-14 rounded-xl border border-zinc-300 bg-zinc-50 px-4 outline-none transition focus:border-yellow-400 focus:bg-white"
         >
           <option value="">Semua Status</option>
           <option value="Dijual">Dijual</option>
@@ -59,7 +67,7 @@ export default function SearchProperty() {
         <select
           value={area}
           onChange={(e) => setArea(e.target.value)}
-          className="border rounded-xl px-4 py-3"
+         className="h-14 rounded-xl border border-zinc-300 bg-zinc-50 px-4 outline-none transition focus:border-yellow-400 focus:bg-white"
         >
           <option value="">Semua Kawasan</option>
           <option value="delta-silicon">Delta Silicon</option>
@@ -71,13 +79,16 @@ export default function SearchProperty() {
 
         <button
           onClick={handleSearch}
-          className="bg-yellow-400 hover:bg-yellow-300 rounded-xl font-bold"
+          className="h-14 rounded-xl bg-yellow-500 font-bold text-black transition duration-300 hover:-translate-y-0.5 hover:bg-yellow-400 hover:shadow-xl"
         >
-          Cari Properti
+          🔍 Cari Properti
         </button>
 
       </div>
 
     </section>
+
+
+
   );
 }
