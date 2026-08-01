@@ -14,8 +14,8 @@ export const properties: Property[] = [
 
   location: "Delta Silicon Lippo Cikarang",
 
-  landArea: "2.000 m²",
-  buildingArea: "1.500 m²",
+  landArea: "1043 m²",
+  buildingArea: "950 m²",
 
   price: "Rp 20.000.000.000",
 latitude: -6.321983,
@@ -24,10 +24,10 @@ longitude: 107.143650,
   image: "/images/delta-silicon.jpg",
 
   images: [
-  "/images/properties/delta-1.jpg",
-  "/images/properties/delta-2.jpg",
-  "/images/properties/delta-3.jpg",
-  "/images/properties/delta-4.jpg",
+  "/images/properties/warehouse1/warehouse1.jpg",
+  "/images/properties/warehouse1/warehouse2.jpg",
+  "/images/properties/warehouse1/warehouse3.jpg",
+  "/images/properties/warehouse1/warehouse4.jpg",
 ],
 
   description:
