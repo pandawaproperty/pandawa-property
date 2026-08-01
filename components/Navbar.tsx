@@ -62,56 +62,50 @@ useEffect(() => {
   );
 
   return (
-    <header className="fixed top-0 left-0 z-50 w-full border-b border-zinc-200/60 bg-white/90 backdrop-blur-xl">
+   <header className="fixed top-0 left-0 z-50 w-full border-b border-zinc-200/60 bg-white/90 backdrop-blur-xl">
 
-<div className="mx-auto flex h-16 md:h-20 max-w-7xl items-center justify-between px-4 md:px-6">
+  <div className="mx-auto flex h-16 md:h-20 max-w-7xl items-center justify-between px-4 md:px-6">
 
-        {/* Logo */}
+    {/* Left */}
+    <div className="flex items-center gap-3">
 
-        {/* Left Section */}
+      {/* Hamburger */}
+      <button
+        onClick={() => setMobileMenuOpen(true)}
+        className="flex h-10 w-10 items-center justify-center rounded-xl border border-zinc-200 md:hidden"
+        aria-label="Open Menu"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2}
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </button>
 
-<div className="flex items-center gap-3">
+      {/* Logo */}
+      <Link href="/" className="flex items-center">
+        <Image
+          src="/images/logo/pandawa.png"
+          alt="Pandawa Property"
+          width={220}
+          height={60}
+          priority
+          className="h-10 md:h-16 w-auto"
+        />
+      </Link>
 
-  {/* Hamburger */}
+    </div>
 
-  <button
-    onClick={() => setMobileMenuOpen(true)}
-    className="flex h-10 w-10 items-center justify-center rounded-xl border border-zinc-200 md:hidden"
-    aria-label="Open Menu"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="h-6 w-6"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      strokeWidth={2}
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M4 6h16M4 12h16M4 18h16"
-      />
-    </svg>
-  </button>
-
-  {/* Logo */}
-
-  <Link
-    href="/"
-    className="flex items-center"
-  >
-    <Image
-      src="/images/logo/pandawa.png"
-      alt="Pandawa Property"
-      width={240}
-      height={70}
-      priority
-      className="h-12 md:h-20 w-auto"
-    />
-  </Link>
-
-</div>
+   
 
         {/* Desktop Menu */}
 
