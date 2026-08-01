@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-screen items-center pt-16 md:pt-20">
+    <section className="relative flex min-h-screen items-center overflow-hidden pt-16 md:pt-20">
 
       {/* Background */}
 
@@ -22,7 +22,7 @@ export default function Hero() {
 
       {/* Content */}
 
-      <div className="mx-auto w-full max-w-7xl px-10 lg:px-12">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-10 lg:px-12">
 
         <div className="max-w-2xl">
 
