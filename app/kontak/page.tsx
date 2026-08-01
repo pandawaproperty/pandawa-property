@@ -59,7 +59,7 @@ export default function KontakPage() {
 
               <div>
                 <h3 className="font-bold">✉️ Email</h3>
-                <p>pandawaglobalindustri.com</p>
+                <p>pandawaglobalindustri@gmail.com</p>
               </div>
 
               <div>

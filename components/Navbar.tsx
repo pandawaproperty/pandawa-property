@@ -38,13 +38,13 @@ export default function Navbar() {
 
           <Link href="/" onClick={closeMenu}>
             <Image
-              src="/images/logo/pandawa.png"
-              alt="Pandawa Property"
-              width={330}
-              height={100}
-              priority
-              className="h-10 w-auto md:h-16"
-            />
+  src="/images/logo/pandawa.png"
+  alt="Pandawa Property"
+  width={320}
+  height={90}
+  priority
+  className="h-14 w-auto md:h-20"
+/>
           </Link>
 
           {/* Desktop Menu */}

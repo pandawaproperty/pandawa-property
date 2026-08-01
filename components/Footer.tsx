@@ -43,7 +43,7 @@ export default function Footer() {
 
         <ul className="space-y-4 text-gray-400">
           <li>📞 0812-5555-8283</li>
-          <li>✉ pandawaglobalindustri.com</li>
+          <li>✉ pandawaglobalindustri.gmail.com</li>
           <li>🌐 pandawaproperty.com</li>
         </ul>
       </div>
@@ -74,7 +74,7 @@ export default function Footer() {
       <div className="flex gap-6 mt-4 md:mt-0">
 
         <a
-          href="https://wa.me/6281290004662"
+          href="https://wa.me/6281255558283"
           className="hover:text-yellow-400 transition"
         >
           WhatsApp
