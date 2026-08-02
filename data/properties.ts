@@ -163,7 +163,7 @@ longitude: 107.301278,
   
 latitude: -6.377214,
 longitude: 107.301278,
-  image: "/images/subang.png",
+  image: "/images/developers/subang.png",
   images: [
   "/images/properties/subang-smartpolitan-1.jpg",
   "/images/properties/subang-smartpolitan-2.jpg",
