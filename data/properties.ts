@@ -161,8 +161,8 @@ longitude: 107.301278,
 
   price: "Rp 240.000.000.000",
   
-latitude: -6.377214,
-longitude: 107.301278,
+latitude: -6.454,
+longitude: 107.655,
   image: "/images/developers/subang.png",
   images: [
   "/images/properties/subang-smartpolitan-1.jpg",

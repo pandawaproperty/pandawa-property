@@ -68,7 +68,7 @@ export default function Footer() {
     <div className="border-t border-zinc-700 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center">
 
       <p className="text-gray-500">
-        © 2026 Pandawa Property. All Rights Reserved.
+        © 2023 Pandawa Property. All Rights Reserved.
       </p>
 
       <div className="flex gap-6 mt-4 md:mt-0">
