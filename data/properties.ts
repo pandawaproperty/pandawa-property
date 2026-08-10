@@ -220,4 +220,43 @@ longitude: 107.143650,
   ],
 },
 
+{
+  id: 7,
+  slug: "warehouse-delta-silicon",
+  title: "Warehouse Delta Silicon",
+
+  areaSlug: "delta-silicon",
+  status: "Disewa",
+  category: "Warehouse",
+
+  location: "Delta Silicon Lippo Cikarang",
+
+  landArea: "15.756 m²",
+  buildingArea: "10.338 m²",
+
+  price: "Rp 75.000/m",
+latitude: -6.321983,
+longitude: 107.143650,
+  
+  image: "/images/delta-silicon.jpg",
+
+  images: [
+  "/images/properties/warehouse2/warehouse1.jpg",
+  "/images/properties/warehouse2/warehouse2.jpg",
+  "/images/properties/warehouse2/warehouse3.jpg",
+  "/images/properties/warehouse2/warehouse4.jpg",
+],
+
+  description:
+    "Warehouse modern di kawasan Delta Silicon dengan akses tol yang sangat dekat. Cocok untuk logistik, manufaktur, dan distribusi.",
+
+  facilities: [
+    
+    "Office 2 Lantai",
+    "Listrik 16,5 KVA",
+    "Akses Kontainer 40 ft",
+    "Keamanan 24 Jam",
+  ],
+},
+
 ];
