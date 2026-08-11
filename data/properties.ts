@@ -222,8 +222,8 @@ longitude: 107.143650,
 
 {
   id: 7,
-  slug: "warehouse-delta-silicon",
-  title: "Warehouse Delta Silicon",
+  slug: "Gudang-delta-silicon",
+  title: "Warehouse Disewakan Delta Silicon",
 
   areaSlug: "delta-silicon",
   status: "Disewa",
@@ -249,6 +249,7 @@ longitude: 107.143650,
 
   description:
     "Warehouse modern di kawasan Delta Silicon dengan akses tol yang sangat dekat. Cocok untuk logistik, manufaktur, dan distribusi.",
+
 
   facilities: [
     
