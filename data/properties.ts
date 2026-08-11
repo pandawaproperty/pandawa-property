@@ -82,7 +82,7 @@ longitude: 107.143650,
   slug: "industrial-land-artha",
 
   title: "Industrial Land Artha",
- areaSlug: "artha-industrial-hill",
+ areaSlug: "artha-graha",
   status: "Dijual",
   category: "Industrial Land",
 
