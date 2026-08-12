@@ -21,7 +21,7 @@ export const properties: Property[] = [
 latitude: -6.321983,
 longitude: 107.143650,
   
-  image: "/images/delta-silicon.jpg",
+  image: "/images/warehouse1.jpg",
 
   images: [
   "/images/properties/warehouse1/warehouse1.jpg",
