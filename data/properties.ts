@@ -21,7 +21,7 @@ export const properties: Property[] = [
 latitude: -6.321983,
 longitude: 107.143650,
   
-  image: "/images/warehouse1.jpg",
+  image: "/images/delta-silicon.jpg",
 
   images: [
   "/images/properties/warehouse1/warehouse1.jpg",
@@ -245,6 +245,48 @@ longitude: 107.143650,
   "/images/properties/warehouse2/warehouse2.jpg",
   "/images/properties/warehouse2/warehouse3.jpg",
   "/images/properties/warehouse2/warehouse4.jpg",
+],
+
+  description:
+    "Warehouse modern di kawasan Delta Silicon dengan akses tol yang sangat dekat. Cocok untuk logistik, manufaktur, dan distribusi.",
+
+
+  facilities: [
+    
+    "Office 2 Lantai",
+    "Listrik 16,5 KVA",
+    "Akses Kontainer 40 ft",
+    "Keamanan 24 Jam",
+  ],
+},
+
+{
+  id: 8,
+  slug: "Gudang-delta-silicon",
+  title: "Warehouse Disewakan Delta Silicon",
+
+  areaSlug: "delta-silicon",
+  status: "Dijual",
+  category: "Industrial Land",
+
+  location: "Delta Silicon Lippo Cikarang",
+
+  landArea: "2500 m²",
+  buildingArea: "-",
+
+  price: "Rp 3.300.000/m",
+latitude: -6.321983,
+longitude: 107.143650,
+  
+  image: "/images/delta-silicon.jpg",
+
+  images: [
+  "/images/properties/lippocikarang/industrialland1.jpg",
+  "/images/properties/lippocikarang/industrialland2.jpg",
+  "/images/properties/lippocikarang/industrialland3.jpg",
+  "/images/properties/lippocikarang/industrialland4.jpg",
+  "/images/properties/lippocikarang/industrialland5.jpg",
+  "/images/properties/lippocikarang/industrialland6.jpg",
 ],
 
   description:
