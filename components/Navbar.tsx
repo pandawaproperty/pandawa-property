@@ -33,17 +33,17 @@ export default function Navbar() {
       <header className="fixed inset-x-0 top-0 z-50 border-b bg-white/95 backdrop-blur">
 
        <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-12 xl:px-16">
-          {/* Logo */}
+  {/* Logo */}
+  <Link href="/" onClick={closeMenu}>
+    <Image
+      src="/images/logo/pandawa3.png"
+      alt="Pandawa Property"
+      width={520}
+      height={150}
+      priority
+      className="h-12 lg:h-14 w-auto"
+    />
 
-          <Link href="/" onClick={closeMenu}>
-            <Image
-  src="/images/logo/pandawa3.png"
-  alt="Pandawa Property"
-  width={520}
-  height={150}
-  priority
-  className="h-20 lg:h-24 w-auto"
-/>
           </Link>
 
           {/* Desktop Menu */}
