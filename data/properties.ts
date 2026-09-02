@@ -222,7 +222,7 @@ longitude: 107.143650,
 
 {
   id: 7,
-  slug: "Gudang-delta-silicon",
+  slug: "industrial-delta-silicon",
   title: "Warehouse Disewakan Delta Silicon",
 
   areaSlug: "delta-silicon",
@@ -262,8 +262,8 @@ longitude: 107.143650,
 
 {
   id: 8,
-  slug: "Gudang-delta-silicon",
-  title: "Warehouse Disewakan Delta Silicon",
+  slug: "delta-silicon",
+  title: "Tanah Industri Delta Silicon",
 
   areaSlug: "delta-silicon",
   status: "Dijual",
@@ -290,13 +290,12 @@ longitude: 107.143650,
 ],
 
   description:
-    "Warehouse modern di kawasan Delta Silicon dengan akses tol yang sangat dekat. Cocok untuk logistik, manufaktur, dan distribusi.",
+    "Tanah Industri modern di kawasan Delta Silicon dengan akses tol yang sangat dekat. Cocok untuk logistik, manufaktur, dan distribusi.",
 
 
   facilities: [
     
-    "Office 2 Lantai",
-    "Listrik 16,5 KVA",
+    
     "Akses Kontainer 40 ft",
     "Keamanan 24 Jam",
   ],

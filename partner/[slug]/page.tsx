@@ -127,7 +127,7 @@ export default async function DeveloperDetailPage({
               <div className="text-5xl font-bold text-yellow-500">
                 {
                   developerProperties.filter(
-                    (item) => item.status === "Jual"
+                    (item) => item.status === "Dijual"
                   ).length
                 }
               </div>
