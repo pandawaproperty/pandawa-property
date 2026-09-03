@@ -36,7 +36,7 @@ export default function Navbar() {
   {/* Logo */}
   <Link href="/" onClick={closeMenu}>
     <Image
-      src="/images/logo/pandawa3.png"
+      src="/images/logo/pandawa4.png"
       alt="Pandawa Property"
       width={520}
       height={150}
