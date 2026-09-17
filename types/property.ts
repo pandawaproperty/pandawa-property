@@ -1,45 +1,37 @@
-export type PropertyCategory =
-  | "Warehouse"
-  | "Factory"
-  | "Industrial Land";
+export type LocaleText = {
+  id: string;
+  en: string;
+  zh: string;
+};
 
-export type PropertyStatus =
-  | "Dijual"
-  | "Disewa";
-
-export interface Property {
+export type Property = {
   id: number;
-
-  /**
-   * Relasi ke Industrial Area
-   */
-  areaSlug: string;
-
   slug: string;
 
-  title: string;
+  title: LocaleText;
+  description: LocaleText;
 
-  category: PropertyCategory;
+  areaSlug: string;
 
-  status: PropertyStatus;
+  status: LocaleText;
+  category: LocaleText;
 
   location: string;
 
   landArea: string;
-
   buildingArea: string;
 
   price: string;
 
   latitude: number;
-
   longitude: number;
 
   image: string;
-
   images: string[];
 
-  description: string;
-
-  facilities: string[];
-}
+  facilities: {
+    id: string[];
+    en: string[];
+    zh: string[];
+  };
+};

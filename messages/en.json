@@ -1,0 +1,194 @@
+{
+  "hero": {
+    "badge": "WAREHOUSE • FACTORY • INDUSTRIAL LAND",
+    "title": "Pandawa Property",
+    "subtitle": "Industrial Property Marketing",
+    "description": "Specializing in the sale and lease of warehouses, factories, industrial land and storage facilities across Cikarang, Karawang and surrounding industrial estates.",
+    "buttonProperty": "View Properties",
+    "buttonContact": "Contact Us"
+  },
+  "search": {
+    "placeholder": "Search Property...",
+    "allCategory": "All Categories",
+    "warehouse": "Warehouse",
+    "factory": "Factory",
+    "land": "Industrial Land",
+    "allStatus": "All Status",
+    "sale": "For Sale",
+    "rent": "For Rent",
+    "allArea": "All Industrial Estates",
+    "button": "Search"
+  },
+  "product": {
+  "title": "Industrial Properties",
+  "subtitle": "Warehouse, Factory & Industrial Land",
+  "search": "Search Property",
+  "sale": "For Sale",
+  "rent": "For Rent",
+  "detail": "View Detail",
+  "landArea": "Land",
+  "buildingArea": "Building"
+},
+  "listing": {
+  "title": "Latest Property Listings",
+  "subtitle": "The best selection of warehouses, factories and industrial land."
+},
+"features": {
+  "title": "Why Choose Pandawa Property",
+  "subtitle": "We help companies find the best warehouses, factories and industrial land across Indonesia's leading industrial estates.",
+  "card1": {
+    "title": "Industrial Estate Specialist",
+    "desc": "Focused on warehouses, factories, storage facilities and industrial land."
+  },
+  "card2": {
+    "title": "Strategic Locations",
+    "desc": "Cikarang, Karawang, Bekasi, Subang and other major industrial areas."
+  },
+  "card3": {
+    "title": "Professional Assistance",
+    "desc": "From property search to transaction completion with expert guidance."
+  }
+},
+"statistics": {
+  "listing": "Active Listings",
+  "estate": "Industrial Estates",
+  "client": "Clients Served",
+  "experience": "Years of Experience"
+},
+"footer": {
+  "description": "Industrial property marketing specializing in warehouses, factories, industrial land and storage facilities across Indonesia.",
+  "menu": "Menu",
+  "home": "Home",
+  "sale": "For Sale",
+  "rent": "For Rent",
+  "client": "Clients",
+  "about": "About Us",
+  "contact": "Contact",
+  "office": "Office",
+  "rights": "All Rights Reserved."
+},
+"about": {
+  "hero": {
+    "title": "About Pandawa Property",
+    "subtitle": "Industrial property marketing specialist for warehouses, factories and industrial land across Indonesia."
+  },
+  "company": {
+    "title": "Who We Are",
+    "desc1": "Pandawa Property specializes in industrial real estate, including warehouses, factories, storage facilities and industrial land across major industrial estates such as Lippo Cikarang, Jababeka, MM2100, GIIC and KIIC.",
+    "desc2": "We assist investors, national companies and multinational corporations in finding the ideal location for factory development, business expansion, logistics and distribution centers."
+  },
+  "why": {
+    "title": "Why Choose Us",
+    "item1": "Industrial Property Specialist",
+    "item2": "Updated Property Database",
+    "item3": "Cikarang & Karawang Coverage",
+    "item4": "End-to-End Transaction Support",
+    "item5": "Professional Negotiation",
+    "item6": "Fast Response"
+  },
+  "vision": {
+    "title": "Vision",
+    "desc": "To become Indonesia's most trusted industrial property marketing company by providing the best solutions for investors and industrial businesses."
+  },
+  "mission": {
+    "title": "Mission",
+    "item1": "Deliver professional services.",
+    "item2": "Provide high-quality property listings.",
+    "item3": "Become a long-term business partner.",
+    "item4": "Provide accurate industrial market insights."
+  },
+  "cta": {
+    "title": "Ready to Support Your Industrial Investment",
+    "desc": "Contact the Pandawa Property team for a free consultation on warehouses, factories and industrial land.",
+    "button": "Contact Us"
+  }
+},
+"client": {
+  "badge": "Trusted By",
+  "title": "Our Clients",
+  "description": "Many companies have trusted Pandawa Property for warehouse, factory and industrial land requirements.",
+  "project": "Project",
+  "location": "Location"
+},
+"partner": {
+  "title": "Our Partners",
+  "subtitle": "Pandawa Property collaborates with trusted industrial estate developers across Indonesia.",
+  "industrialArea": "Industrial Estates",
+  "detail": "View Detail"
+},
+"industrial": {
+  "title": "Industrial Estates",
+  "subtitle": "Explore the best industrial estates in Cikarang, Karawang, Bekasi and Subang.",
+  "detail": "View Estate"
+},
+"contact": {
+  "hero": {
+    "title": "Contact Us",
+    "subtitle": "The Pandawa Property team is ready to help you find the best warehouse, factory and industrial land."
+  },
+  "info": {
+    "title": "Contact Information",
+    "office": "Office",
+    "hours": "Business Hours",
+    "day": "Monday - Saturday"
+  },
+  "form": {
+    "title": "Send Message",
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "WhatsApp Number",
+    "message": "Tell us about your property needs",
+    "button": "Send Message"
+  }
+},
+"propertyDetail": {
+  "notFound": "Property Not Found",
+  "premium": "Premium Listing",
+  "category": "Category",
+  "status": "Status",
+  "landArea": "Land Area",
+  "buildingArea": "Building Area",
+  "locatedIn": "Located in Industrial Estate",
+  "description": "Description",
+  "facilities": "Facilities",
+  "whatsapp": "Contact via WhatsApp",
+  "about": "About This Property"
+},
+"industrialArea": {
+  "badge": "INDUSTRIAL ESTATE",
+  "location": "Location",
+  "developer": "Developer",
+  "available": "Available Properties",
+  "property": "Properties",
+  "listing": "Property Listings",
+  "land": "Land",
+  "building": "Building",
+  "detail": "View Detail",
+
+  "jababeka": {
+    "name": "Jababeka",
+    "location": "Cikarang, Bekasi",
+    "developer": "PT Jababeka Tbk",
+    "description": "The largest industrial estate in Cikarang with numerous national and multinational companies.",
+    "toll": "West Cikarang Toll"
+  },
+
+  "delta-silicon": {
+    "name": "Delta Silicon",
+    "location": "Lippo Cikarang",
+    "developer": "Lippo Cikarang",
+    "description": "Modern industrial estate with strategic access and complete facilities.",
+    "toll": "Cibatu Toll"
+  }
+},
+"nav": {
+  "home": "Home",
+  "product": "Products",
+  "partner": "Our Partners",
+  "client": "Clients",
+  "about": "About Us",
+  "contact": "Contact",
+  "whatsapp": "Contact via WhatsApp"
+}
+
+}

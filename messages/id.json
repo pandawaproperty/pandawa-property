@@ -1,0 +1,180 @@
+{
+  "hero": {
+    "badge": "WAREHOUSE • FACTORY • INDUSTRIAL LAND",
+    "title": "Pandawa Property",
+    "subtitle": "Marketing Properti Kawasan Industri",
+    "description": "Spesialis penjualan dan penyewaan Warehouse, Factory, Industrial Land serta Storage di kawasan industri Cikarang, Karawang dan sekitarnya.",
+    "buttonProperty": "Lihat Properti",
+    "buttonContact": "Hubungi Kami"
+  },
+  "search": {
+    "placeholder": "Cari Properti...",
+    "allCategory": "Semua Kategori",
+    "warehouse": "Warehouse",
+    "factory": "Factory",
+    "land": "Industrial Land",
+    "allStatus": "Semua Status",
+    "sale": "Dijual",
+    "rent": "Disewa",
+    "allArea": "Semua Kawasan",
+    "button": "Cari Properti"
+  },
+  "product": {
+  "title": "Properti Industri",
+  "subtitle": "Warehouse, Factory & Industrial Land",
+  "search": "Cari Properti",
+  "sale": "Dijual",
+  "rent": "Disewa",
+  "detail": "Lihat Detail",
+  "landArea": "Tanah",
+  "buildingArea": "Bangunan"
+},
+  "listing": {
+  "title": "Listing Properti Terbaru",
+  "subtitle": "Pilihan Warehouse, Factory, dan Industrial Land terbaik."
+},
+"features": {
+  "title": "Mengapa Memilih Pandawa Property",
+  "subtitle": "Kami membantu perusahaan menemukan Warehouse, Factory, dan Industrial Land terbaik di kawasan industri Indonesia.",
+  "card1": {
+    "title": "Spesialis Kawasan Industri",
+    "desc": "Fokus pada Warehouse, Factory, Storage dan Industrial Land."
+  },
+  "card2": {
+    "title": "Lokasi Strategis",
+    "desc": "Cikarang, Karawang, Bekasi, Subang dan kawasan industri lainnya."
+  },
+  "card3": {
+    "title": "Pendampingan Profesional",
+    "desc": "Mulai dari pencarian properti hingga proses transaksi selesai."
+  }
+},
+"statistics": {
+  "listing": "Listing Aktif",
+  "estate": "Kawasan Industri",
+  "client": "Klien Terlayani",
+  "experience": "Tahun Pengalaman"
+},
+"footer": {
+  "description": "Marketing Properti spesialis Warehouse, Factory, Industrial Land dan Storage di kawasan industri Indonesia.",
+  "menu": "Menu",
+  "home": "Home",
+  "sale": "Jual",
+  "rent": "Sewa",
+  "client": "Klien",
+  "about": "Tentang Kami",
+  "contact": "Kontak",
+  "office": "Kantor",
+  "rights": "Seluruh Hak Dilindungi."
+},
+"about": {
+  "hero": {
+    "title": "Tentang Pandawa Property",
+    "subtitle": "Spesialis pemasaran Warehouse, Factory dan Industrial Land di kawasan industri Indonesia."
+  },
+  "company": {
+    "title": "Siapa Kami?",
+    "desc1": "Pandawa Property merupakan perusahaan yang berfokus pada pemasaran properti industri, meliputi Warehouse, Factory, Storage dan Industrial Land di berbagai kawasan industri seperti Lippo Cikarang, Jababeka, MM2100, GIIC, KIIC dan kawasan industri lainnya.",
+    "desc2": "Kami membantu investor, perusahaan nasional maupun perusahaan multinasional dalam menemukan lokasi terbaik untuk ekspansi bisnis, pembangunan pabrik, pusat distribusi maupun gudang logistik."
+  },
+  "why": {
+    "title": "Mengapa Memilih Kami?",
+    "item1": "Spesialis Properti Industri",
+    "item2": "Database Listing Terupdate",
+    "item3": "Area Cikarang & Karawang",
+    "item4": "Pendampingan Hingga Closing",
+    "item5": "Negosiasi Profesional",
+    "item6": "Respon Cepat"
+  },
+  "vision": {
+    "title": "Visi",
+    "desc": "Menjadi perusahaan pemasaran properti industri terpercaya di Indonesia yang memberikan solusi terbaik bagi investor dan pelaku industri."
+  },
+  "mission": {
+    "title": "Misi",
+    "item1": "Memberikan pelayanan profesional.",
+    "item2": "Menyediakan listing terbaik.",
+    "item3": "Menjadi partner bisnis jangka panjang.",
+    "item4": "Memberikan informasi pasar industri yang akurat."
+  },
+  "cta": {
+    "title": "Siap Membantu Investasi Industri Anda",
+    "desc": "Hubungi tim Pandawa Property untuk konsultasi gratis mengenai Warehouse, Factory maupun Industrial Land.",
+    "button": "Hubungi Kami"
+  }
+},
+"client": {
+  "badge": "Trusted By",
+  "title": "Klien Kami",
+  "description": "Berbagai perusahaan telah mempercayakan Pandawa Property dalam kebutuhan warehouse, factory, dan industrial land.",
+  "project": "Project",
+  "location": "Lokasi"
+},
+"partner": {
+  "title": "Partner Kami",
+  "subtitle": "Pandawa Property bekerja sama dengan berbagai developer kawasan industri terpercaya di Indonesia.",
+  "industrialArea": "Kawasan Industri",
+  "detail": "Lihat Detail"
+},
+"industrial": {
+  "title": "Kawasan Industri",
+  "subtitle": "Jelajahi kawasan industri terbaik di Cikarang, Karawang, Bekasi dan Subang.",
+  "detail": "Lihat Kawasan"
+},
+
+"contact": {
+  "hero": {
+    "title": "Hubungi Kami",
+    "subtitle": "Tim Pandawa Property siap membantu Anda menemukan Warehouse, Factory maupun Industrial Land terbaik."
+  },
+  "info": {
+    "title": "Informasi Kontak",
+    "office": "Kantor",
+    "hours": "Jam Operasional",
+    "day": "Senin - Sabtu"
+  },
+  "form": {
+    "title": "Kirim Pesan",
+    "name": "Nama Lengkap",
+    "email": "Email",
+    "phone": "Nomor WhatsApp",
+    "message": "Kebutuhan Properti Anda",
+    "button": "Kirim Pesan"
+  }
+},
+"propertyDetail": {
+  "notFound": "Properti Tidak Ditemukan",
+  "premium": "Premium Listing",
+  "category": "Kategori",
+  "status": "Status",
+  "landArea": "Luas Tanah",
+  "buildingArea": "Luas Bangunan",
+  "locatedIn": "Berada di Kawasan Industri",
+  "description": "Deskripsi",
+  "facilities": "Fasilitas",
+  "whatsapp": "Hubungi via WhatsApp",
+  "about": "Tentang Properti Ini"
+},
+"industrialArea": {
+  "badge": "KAWASAN INDUSTRI",
+  "location": "Lokasi",
+  "developer": "Developer",
+  "available": "Properti Tersedia",
+  "property": "Properti",
+  "listing": "Listing Properti",
+  "land": "Tanah",
+  "building": "Bangunan",
+  "detail": "Lihat Detail"
+},
+
+"nav": {
+  "home": "Home",
+  "product": "Produk",
+  "partner": "Partner Kami",
+  "client": "Klien",
+  "about": "Tentang Kami",
+  "contact": "Kontak",
+  "whatsapp": "Hubungi via WhatsApp"
+}
+
+}

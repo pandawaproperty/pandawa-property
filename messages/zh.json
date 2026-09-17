@@ -1,0 +1,238 @@
+{
+  "hero": {
+    "badge": "仓库 • 工厂 • 工业土地",
+    "title": "Pandawa Property",
+    "subtitle": "工业地产营销专家",
+    "description": "专注于仓库、工厂、工业土地及仓储设施的销售与租赁，服务于芝卡朗、加拉旺及周边工业园区。",
+    "buttonProperty": "查看房源",
+    "buttonContact": "联系我们"
+  },
+  "search": {
+    "placeholder": "搜索工业地产...",
+    "allCategory": "全部类别",
+    "warehouse": "仓库",
+    "factory": "工厂",
+    "land": "工业土地",
+    "allStatus": "全部状态",
+    "sale": "出售",
+    "rent": "出租",
+    "allArea": "全部工业园区",
+    "button": "搜索"
+  },
+  "product": {
+  "title": "工业地产",
+  "subtitle": "仓库、工厂及工业用地",
+  "search": "搜索物业",
+  "sale": "出售",
+  "rent": "出租",
+  "detail": "查看详情",
+  "landArea": "土地",
+  "buildingArea": "建筑"
+},
+  "listing": {
+  "title": "最新工业地产房源",
+  "subtitle": "精选仓库、厂房及工业土地。"
+},
+"features": {
+  "title": "为什么选择 Pandawa Property",
+  "subtitle": "我们帮助企业在印度尼西亚优质工业园区寻找仓库、厂房及工业土地。",
+  "card1": {
+    "title": "工业园区专家",
+    "desc": "专注于仓库、厂房、仓储设施及工业土地。"
+  },
+  "card2": {
+    "title": "战略位置",
+    "desc": "覆盖芝卡朗、加拉旺、勿加泗、苏邦等主要工业园区。"
+  },
+  "card3": {
+    "title": "专业全程服务",
+    "desc": "从选址、谈判到交易完成，全程提供专业支持。"
+  }
+},
+"statistics": {
+  "listing": "在售房源",
+  "estate": "工业园区",
+  "client": "服务客户",
+  "experience": "年行业经验"
+},
+"footer": {
+  "description": "专注于印度尼西亚工业园区仓库、厂房、工业土地及仓储设施的营销服务。",
+  "menu": "菜单",
+  "home": "首页",
+  "sale": "出售",
+  "rent": "出租",
+  "client": "客户",
+  "about": "关于我们",
+  "contact": "联系我们",
+  "office": "办公室",
+  "rights": "版权所有。"
+},
+"about": {
+  "hero": {
+    "title": "关于 Pandawa Property",
+    "subtitle": "印度尼西亚工业地产营销专家，专注于仓库、厂房及工业土地。"
+  },
+  "company": {
+    "title": "我们是谁",
+    "desc1": "Pandawa Property 专注于工业地产营销，包括仓库、厂房、仓储设施及工业土地，服务于 Lippo Cikarang、Jababeka、MM2100、GIIC、KIIC 等主要工业园区。",
+    "desc2": "我们协助国内外投资者及跨国企业寻找工厂建设、物流中心及业务扩张的最佳工业选址。"
+  },
+  "why": {
+    "title": "为什么选择我们",
+    "item1": "工业地产专家",
+    "item2": "实时更新房源数据库",
+    "item3": "专注芝卡朗与加拉旺",
+    "item4": "全程交易服务",
+    "item5": "专业商务谈判",
+    "item6": "快速响应"
+  },
+  "vision": {
+    "title": "愿景",
+    "desc": "成为印度尼西亚最值得信赖的工业地产营销公司，为投资者和工业企业提供最佳解决方案。"
+  },
+  "mission": {
+    "title": "使命",
+    "item1": "提供专业服务。",
+    "item2": "提供优质工业房源。",
+    "item3": "成为长期商业合作伙伴。",
+    "item4": "提供准确的工业市场信息。"
+  },
+  "cta": {
+    "title": "助力您的工业投资",
+    "desc": "欢迎联系 Pandawa Property，免费咨询仓库、厂房及工业土地。",
+    "button": "联系我们"
+  }
+},
+"client": {
+  "badge": "TRUSTED BY",
+  "title": "合作客户",
+  "description": "众多企业信赖 Pandawa Property，为其提供仓库、厂房及工业土地解决方案。",
+  "project": "项目",
+  "location": "位置"
+},
+"partner": {
+  "title": "合作伙伴",
+  "subtitle": "Pandawa Property 与印度尼西亚值得信赖的工业园区开发商合作。",
+  "industrialArea": "工业园区",
+  "detail": "查看详情"
+},
+"industrial": {
+  "title": "工业园区",
+  "subtitle": "探索西卡朗、加拉旺、勿加泗及苏邦最优质的工业园区。",
+  "detail": "查看园区"
+},
+"contact": {
+  "hero": {
+    "title": "联系我们",
+    "subtitle": "Pandawa Property 团队将协助您寻找最适合的仓库、厂房及工业土地。"
+  },
+  "info": {
+    "title": "联系信息",
+    "office": "办公室",
+    "hours": "营业时间",
+    "day": "周一至周六"
+  },
+  "form": {
+    "title": "发送咨询",
+    "name": "姓名",
+    "email": "电子邮箱",
+    "phone": "WhatsApp 电话",
+    "message": "请输入您的工业地产需求",
+    "button": "发送信息"
+  }
+},
+"propertyDetail": {
+  "notFound": "未找到房源",
+  "premium": "优质房源",
+  "category": "类别",
+  "status": "状态",
+  "landArea": "土地面积",
+  "buildingArea": "建筑面积",
+  "locatedIn": "位于工业园区",
+  "description": "房源介绍",
+  "facilities": "配套设施",
+  "whatsapp": "WhatsApp 联系我们",
+  "about": "关于此房源"
+},
+"industrialArea": {
+  "badge": "工业园区",
+  "location": "位置",
+  "developer": "开发商",
+  "available": "可售物业",
+  "property": "物业",
+  "listing": "园区物业",
+  "land": "土地",
+  "building": "建筑",
+  "detail": "查看详情",
+  "listing": "工业园列表",
+ 
+
+
+  "jababeka": {
+    "name": "Jababeka 工业园",
+    "location": "勿加泗 · 芝卡朗",
+    "developer": "PT Jababeka Tbk",
+    "description": "芝卡朗最大的工业园区，聚集众多本地及跨国企业。",
+    "toll": "芝卡朗西收费站"
+  },
+
+  "delta-silicon": {
+    "name": "Delta Silicon 工业园",
+    "location": "力宝芝卡朗",
+    "developer": "Lippo Cikarang",
+    "description": "现代化工业园区，交通便利，配套设施完善。",
+    "toll": "Cibatu 收费站"
+  },
+
+  "mm2100": {
+    "name": "MM2100 工业园",
+    "location": "芝比东",
+    "developer": "Bekasi Fajar Industrial Estate",
+    "description": "聚集众多汽车及制造企业的工业园区。",
+    "toll": "Cibitung 收费站"
+  },
+
+  "deltamas": {
+    "name": "GIIC 国际工业中心",
+    "location": "德尔塔马斯",
+    "developer": "Sinar Mas Land",
+    "description": "拥有世界级配套设施的国际工业中心。",
+    "toll": "Telaga Asih 收费站"
+  },
+
+  "kiic": {
+    "name": "KIIC 工业园",
+    "location": "加拉旺",
+    "developer": "KIIC",
+    "description": "加拉旺国际工业城，印尼汽车产业的重要基地。",
+    "toll": "加拉旺西收费站"
+  },
+
+  "artha-graha": {
+    "name": "Artha 工业园",
+    "location": "加拉旺",
+    "developer": "Artha Graha 集团",
+    "description": "新兴工业园区，拥有现代化基础设施及优越区位。",
+    "toll": "加拉旺东收费站"
+  },
+
+  "subang-smartpolitan": {
+    "name": "Subang 智慧工业城",
+    "location": "苏邦",
+    "developer": "Subang Smartpolitan",
+    "description": "现代化智慧工业园区，具备优越的发展潜力。",
+    "toll": "Subang 收费站"
+  }
+},
+
+"nav": {
+  "home": "首页",
+  "product": "房源",
+  "partner": "合作伙伴",
+  "client": "客户",
+  "about": "关于我们",
+  "contact": "联系我们",
+  "whatsapp": "WhatsApp 联系我们"
+}
+
+}

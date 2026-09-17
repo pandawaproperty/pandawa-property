@@ -42,7 +42,7 @@ export const clients = [
   },
 
   {
-    id: 5,
+    id: 6,
     company: "PT SungEel Hitech Indonesia",
     project: "Industrial Land",
     location: "Artha Industrial Hill Karawang",

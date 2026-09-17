@@ -1,12 +1,16 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function Hero() {
+  const t = useTranslations("hero");
+  const locale = useLocale();
+
   return (
-    <section className="relative flex min-h-screen items-center overflow-hidden pt-16 md:pt-20">
-
+    <section className="relative flex min-h-screen items-center pt-20">
       {/* Background */}
-
       <Image
         src="/images/industri.jpg"
         alt="Warehouse"
@@ -17,55 +21,49 @@ export default function Hero() {
       />
 
       {/* Overlay */}
-
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
 
       {/* Content */}
-
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-12 xl:px-16">
-
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-12">
         <div className="max-w-2xl">
-
+          {/* Badge */}
           <p className="text-xs font-semibold uppercase tracking-[3px] text-yellow-400 md:text-base md:tracking-[6px]">
-            Warehouse • Factory • Industrial Land
+            {t("badge")}
           </p>
 
-          <h1 className="mt-6 text-4xl font-bold leading-tight text-white md:text-6xl">
-            Pandawa Property
+          {/* Title */}
+          <h1 className="mt-6 text-5xl font-bold leading-tight text-white md:text-7xl">
+            {t("title")}
           </h1>
 
-          <p className="mt-4 text-xl text-gray-200 md:text-2xl">
-            Marketing Properti Kawasan Industri
+          {/* Subtitle */}
+          <p className="mt-5 text-xl text-gray-200 md:text-2xl">
+            {t("subtitle")}
           </p>
 
-          <p className="mt-6 text-base leading-8 text-gray-300 md:text-lg">
-            Spesialis penjualan dan penyewaan Warehouse, Factory,
-            Industrial Land serta Storage di kawasan industri
-            Cikarang, Karawang dan sekitarnya.
+          {/* Description */}
+          <p className="mt-7 text-base leading-8 text-gray-300 md:text-lg">
+            {t("description")}
           </p>
 
+          {/* Buttons */}
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-
             <Link
-              href="/property"
+              href={`/${locale}/product`}
               className="rounded-xl bg-yellow-500 px-8 py-4 text-center font-semibold text-black transition hover:bg-yellow-400"
             >
-              Lihat Properti
+              {t("buttonProperty")}
             </Link>
 
             <Link
-              href="/kontak"
-              className="rounded-xl border border-white px-8 py-4 text-center text-white transition hover:bg-white hover:text-black"
+              href={`/${locale}/kontak`}
+              className="rounded-xl border border-white px-8 py-4 text-center font-semibold text-white transition hover:bg-white hover:text-black"
             >
-              Hubungi Kami
+              {t("buttonContact")}
             </Link>
-
           </div>
-
         </div>
-
       </div>
-
     </section>
   );
 }

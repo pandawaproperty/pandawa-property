@@ -1,60 +1,59 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+
 export default function Features() {
+  const t = useTranslations("features");
+
   return (
-    <section className="py-24 bg-gray-100">
-
-      <div className="max-w-7xl mx-auto px-6">
-
-        <h2 className="text-4xl font-bold text-center">
-          Mengapa Memilih Pandawa Property
+    <section className="bg-gray-100 py-24">
+      <div className="mx-auto max-w-7xl px-6">
+        <h2 className="text-center text-4xl font-bold">
+          {t("title")}
         </h2>
 
-        <p className="text-center text-gray-600 mt-4 max-w-2xl mx-auto">
-          Kami membantu perusahaan menemukan Warehouse, Factory,
-          dan Industrial Land terbaik di kawasan industri Indonesia.
+        <p className="mx-auto mt-4 max-w-2xl text-center text-gray-600">
+          {t("subtitle")}
         </p>
 
-        <div className="grid md:grid-cols-3 gap-8 mt-16">
-
-          <div className="bg-white rounded-2xl p-8 shadow hover:shadow-xl transition">
+        <div className="mt-16 grid gap-8 md:grid-cols-3">
+          <div className="rounded-2xl bg-white p-8 shadow transition hover:shadow-xl">
             <div className="text-5xl">🏭</div>
 
-            <h3 className="text-2xl font-semibold mt-6">
-              Spesialis Kawasan Industri
+            <h3 className="mt-6 text-2xl font-semibold">
+              {t("card1.title")}
             </h3>
 
-            <p className="text-gray-600 mt-4">
-              Fokus pada Warehouse, Factory, Storage dan Industrial Land.
+            <p className="mt-4 text-gray-600">
+              {t("card1.desc")}
             </p>
           </div>
 
-          <div className="bg-white rounded-2xl p-8 shadow hover:shadow-xl transition">
+          <div className="rounded-2xl bg-white p-8 shadow transition hover:shadow-xl">
             <div className="text-5xl">📍</div>
 
-            <h3 className="text-2xl font-semibold mt-6">
-              Lokasi Strategis
+            <h3 className="mt-6 text-2xl font-semibold">
+              {t("card2.title")}
             </h3>
 
-            <p className="text-gray-600 mt-4">
-              Cikarang, Karawang, Bekasi, Subang dan kawasan industri lainnya.
+            <p className="mt-4 text-gray-600">
+              {t("card2.desc")}
             </p>
           </div>
 
-          <div className="bg-white rounded-2xl p-8 shadow hover:shadow-xl transition">
+          <div className="rounded-2xl bg-white p-8 shadow transition hover:shadow-xl">
             <div className="text-5xl">🤝</div>
 
-            <h3 className="text-2xl font-semibold mt-6">
-              Pendampingan Profesional
+            <h3 className="mt-6 text-2xl font-semibold">
+              {t("card3.title")}
             </h3>
 
-            <p className="text-gray-600 mt-4">
-              Mulai dari pencarian properti hingga proses transaksi selesai.
+            <p className="mt-4 text-gray-600">
+              {t("card3.desc")}
             </p>
           </div>
-
         </div>
-
       </div>
-
     </section>
   );
 }
