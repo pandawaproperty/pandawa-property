@@ -1,16 +1,11 @@
-export type Developer = {
+export interface Developer {
   id: number;
   slug: string;
   name: string;
   logo: string;
   banner: string;
+  description: string;
   location: string;
-
-  description: {
-    id: string;
-    en: string;
-    zh: string;
-  };
-
   website?: string;
-};
+
+}

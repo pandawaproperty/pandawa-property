@@ -1,45 +1,42 @@
-"use client";
-
 import Image from "next/image";
-import { useLocale, useTranslations } from "next-intl";
 
 import { developers } from "@/data/developers";
 
-type Locale = "id" | "en" | "zh";
-
 export default function PartnerPage() {
-  const locale = useLocale() as Locale;
-  const t = useTranslations("partner");
-
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Hero */}
-      <section className="bg-zinc-900 py-24 text-white">
-        <div className="mx-auto max-w-7xl px-6 text-center">
-          <h1 className="text-5xl font-bold">{t("title")}</h1>
+      <section className="bg-zinc-900 text-white py-24">
+        <div className="max-w-7xl mx-auto px-6 text-center">
+          <h1 className="text-5xl font-bold">Partner Kami</h1>
 
-          <p className="mx-auto mt-6 max-w-3xl text-xl leading-relaxed text-gray-300">
-            {t("subtitle")}
+          <p className="mt-6 text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            Pandawa Property bekerja sama dengan berbagai pengembang kawasan
+            industri terpercaya di Indonesia untuk menghadirkan pilihan
+            warehouse, factory, dan industrial land terbaik bagi para investor
+            maupun pelaku industri.
           </p>
         </div>
       </section>
 
       {/* Partner List */}
       <section className="py-20">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {developers.map((developer) => (
               <div
                 key={developer.id}
-                className="group overflow-hidden rounded-3xl bg-white shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+                className="group rounded-3xl bg-white shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden"
               >
-                <div className="flex h-56 items-center justify-center bg-gray-100 p-10">
-                  <div className="relative h-full w-full">
+                <div className="h-56 flex items-center justify-center bg-gray-100 p-10">
+                  <div className="relative w-full h-full">
                     <Image
                       src={developer.logo}
                       alt={developer.name}
                       fill
-                      sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+                      sizes="(max-width:768px) 100vw,
+(max-width:1200px) 50vw,
+33vw"
                       className="object-contain transition-transform duration-300 group-hover:scale-105"
                     />
                   </div>
@@ -50,12 +47,12 @@ export default function PartnerPage() {
                     {developer.name}
                   </h2>
 
-                  <p className="mt-2 text-sm font-medium text-yellow-600">
-                    {t("developer")}
+                  <p className="mt-2 text-sm text-yellow-600 font-medium">
+                    Developer Kawasan Industri
                   </p>
 
-                  <p className="mt-5 leading-7 text-gray-600">
-                    {developer.description[locale]}
+                  <p className="mt-5 text-gray-600 leading-7">
+                    {developer.description}
                   </p>
 
                   {developer.website && (
@@ -63,9 +60,9 @@ export default function PartnerPage() {
                       href={developer.website}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="mt-8 inline-flex items-center font-semibold text-yellow-600 hover:text-yellow-700"
+                      className="inline-flex items-center mt-8 font-semibold text-yellow-600 hover:text-yellow-700"
                     >
-                      🌐 {t("visitWebsite")}
+                      🌐 Kunjungi Website
                     </a>
                   )}
                 </div>

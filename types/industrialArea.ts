@@ -1,20 +1,39 @@
-export type LocaleText = {
-  id: string;
-  en: string;
-  zh: string;
-};
-
-export type IndustrialArea = {
+export interface IndustrialArea {
   id: number;
+
   developerSlug: string;
+
+  developer: string;
+
   slug: string;
 
-  name: LocaleText;
-  location: LocaleText;
-  developer: LocaleText;
-  tollAccess: LocaleText;
-  description: LocaleText;
+  name: string;
+
+  image: string;
+
+  location: string;
 
   totalArea: string;
-  image: string;
-};
+
+  tollAccess: string;
+
+  description: string;
+
+  // SEO
+seoTitle?: string;
+
+seoDescription?: string;
+
+overview?: string;
+
+advantages?: string[];
+
+industries?: string[];
+
+accessibility?: string[];
+
+faq?: {
+  question: string;
+  answer: string;
+}[];
+}
