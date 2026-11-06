@@ -8,8 +8,8 @@ export default function Hero() {
       {/* Background */}
 
       <Image
-        src="/images/industri.jpg"
-        alt="Warehouse"
+        src="/images/hero-industrial.png"
+        alt="Kawasan Industri Modern"
         fill
         priority
         sizes="100vw"
